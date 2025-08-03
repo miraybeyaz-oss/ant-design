@@ -7,18 +7,18 @@ type MenuItem = Required<MenuProps>['items'][number];
 
 const items: MenuItem[] = [
   {
-    label: 'Navigation One',
+    label: 'Anasayfa',
     key: 'mail',
     icon: <MailOutlined />,
   },
   {
-    label: 'Navigation Two',
+    label: 'Rectifier',
     key: 'app',
     icon: <AppstoreOutlined />,
     disabled: true,
   },
   {
-    label: 'Navigation Three - Submenu',
+    label: 'Jeneratör',
     key: 'SubMenu',
     icon: <SettingOutlined />,
     children: [
